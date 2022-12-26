@@ -1,0 +1,35 @@
+,-------------------
+MMS1 : MM Side Tales 0 (ie. The Epic of Lunch Vol 1: Defamation)
+-------------------
+
+-------------------
+Preface
+-------------------
+
+Ok, so, this is a vanity project of mine. It's made by one person and was initially made within a short span of time (3 weeks) and then polished on the side over the next few months. Source is provided but, be forewarned, it is not the most clinical or dexterous code. It’s written in C (without the plus-plus) and was intended more as an experiment in what I could do in a relatively short amount of time. So, if you don’t feel really comfortable with C code then I wouldn’t modify it. I would, however, recommend anybody the chance to freely look it over. But don’t take it as an example on how to do things proper. If this were a more major release it’d be way different.
+
+Both of the dependent libraries contained libPlex and libmmcommon are closed source for the moment.  They are not presentable at the moment, I’m afraid. But there’s plans in the future to release both as complete open source. As all my projects will be, they are released under the MIT license (contained in project folder).
+
+This is a microgame and likely will be fleshed out as I can make it. There will be revisions as I go along to hammer out the wonkiest aspects. The plan is to release 4 of these ‘side tales’ year by year as a precursor to the story and style of a bigger project still in development. Having the same format of a small arcade-style minigame sandwiched between 2 diorama plays.
+
+All graphics, music, code and writing done by me. Sorry about that...
+
+Prepackaged libraries should contain a different licenses which are provided in the same folder as they are.
+
+-------------------
+HOW TO RUN:
+-------------------
+
+Linux:
+
+	1. Make sure you acquire all dependencies (SDL2, SDL2_image, portaudio, clang)
+	2. simply run “run.sh” and it should make and run the game.
+
+Windows:
+
+	1. either open 'bin\win32' or 'bin\win64' folders
+	2. double click main.exe and it SHOULD just run from there.
+
+-------------------
+NOTE: feel free to check out the config_en file for configuration options. They should be self explanatory. Not all of them are yet implemented.
+-------------------

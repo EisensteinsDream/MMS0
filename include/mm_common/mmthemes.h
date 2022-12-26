@@ -1,0 +1,41 @@
+#ifndef MM_COMMON_THEMES_H
+#define MM_COMMON_THEMES_H
+
+#include <plex.h>
+
+#include "meta/mmcommon_filepaths.h"
+
+typedef enum
+{
+	MM_COMMON_THEMEID_NONE = 0,
+	MM_COMMON_THEMEID_MAIN = 1,
+	MM_COMMON_THEMEID_EXTRAPLOCAN = 2,
+	MM_COMMON_THEMEID_NEWSROOM = 3,
+	MM_COMMON_THEMEID_DAYTODAY = 4,
+	MM_COMMON_THEMEID_PANIC = 5,
+	MM_COMMON_THEMEID_DARKCITY = 6,
+	MM_COMMON_THEMEID_PAMALEANA = 7,
+	MM_COMMON_THEMEID_SUSPENSE = 8,
+	MM_COMMON_THEMEID_RESOLUTION = 9
+} MM_COMMON_THEMEID;
+
+typedef enum
+{
+	MM_COMMON_SOUNDEFFECT_NONE = 0,
+	MM_COMMON_SOUNDEFFECT_KNOCKING = 1,
+	MM_COMMON_SOUNDEFFECT_SHOCK = 2
+} MM_COMMON_SOUNDEFFECT;
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+	extern void MM_COMMON_playTheme(const MM_COMMON_THEMEID themeID);
+	extern void MM_COMMON_playSoundEffect(const MM_COMMON_SOUNDEFFECT effect);
+
+	extern void MM_COMMON_updateTheme();
+#ifdef __cplusplus
+}
+#endif
+
+#endif
