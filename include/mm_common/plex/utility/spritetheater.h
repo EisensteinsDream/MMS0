@@ -35,6 +35,8 @@ extern "C"
 
 	extern void PLEX_animationActorMove(const size_t actor, const double x, const double y);
 
+	extern void PLEX_spriteTheaterBackgroundChange(const size_t backdrop, const char* const name);
+
 	extern void PLEX_spriteTheaterMusicChange(const size_t ID);
 	extern void PLEX_spriteTheaterMusicStop();
 	extern void PLEX_spriteTheaterSoundEffect(const size_t ID);

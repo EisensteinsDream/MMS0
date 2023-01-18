@@ -27,6 +27,7 @@ extern "C"
 
 	extern bool PLEX_DEF_allowResize();
 	extern bool PLEX_DEF_allowMaximize();
+	extern bool PLEX_DEF_startMaximized();
 
 	extern bool PLEX_DEF_disableAudio();
 
@@ -37,6 +38,17 @@ extern "C"
 	extern bool PLEX_DEF_configReloadButton();
 
 	extern bool PLEX_DEF_controllerPause();
+
+	extern bool PLEX_DEF_disableController();
+	extern bool PLEX_DEF_disableJoystick();
+	extern bool PLEX_DEF_disableKeyboard();
+	extern bool PLEX_DEF_disableMouse();
+
+	extern uint32_t PLEX_DEF_minWindowW();
+	extern uint32_t PLEX_DEF_minWindowH();
+
+	extern uint32_t PLEX_DEF_maxWindowW();
+	extern uint32_t PLEX_DEF_maxWindowH();
 
 	extern bool PLEX_assignDefaultUInt8(const char* const name, const uint8_t min, const uint8_t max, const uint8_t def, const char* const comment, uint8_t* content);
 

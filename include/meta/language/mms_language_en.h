@@ -11,7 +11,7 @@
 
 #define PLEX_LANGUAGE_SETTING_LEANASCUIBCLE "Leanas Cubicle"
 
-#define PLEX_LANGUAGE_INTROA_LINE1 "M.M.: The Epic of Lunch Vol. 1: Defamation. \n\nA microgame by Eisenstein's Dream. \n\n\tLEFT CLICK TO NEXT SLIDE!"
+#define PLEX_LANGUAGE_INTROA_LINE1 "M.M.: The Epic of Lunch Vol. 1: Defamation. \n\nA microgame by Eisenstein's Dream. \n\n\tLEFT CLICK, PRESS RETURN/ENTER, OR PRESS RIGHT DPAD ON CONTROLLER TO NEXT SLIDE!"
 
 #define PLEX_LANGUAGE_INTROA_LINE2 "Setting: At the behest of Chief Editor Venarius, rookie journalist Pamaleana Codelli-Cabana has been tasked to work overtime for rewrites on five different articles. The best of them being destined to publication in the morning. Lacking confidence in her abilities, he has assigned her an Extraplocan 5000. A world famous writing assistant who also happens to be a talking robot built out of a suitcase."
 

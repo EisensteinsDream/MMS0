@@ -20,6 +20,7 @@ extern "C"
 
 	extern void PLEX_setComplexSoundSequence(const bool seq0, const bool seq1, const bool seq2, const bool seq3, const bool seq4, const bool seq5, const bool seq6, const bool seq7, const size_t count, const size_t index);
 
+	extern bool PLEX_preloadSoundFileToSpecificBuffer(const char* const filename, const size_t buffer);
 	extern int64_t PLEX_preloadSoundFile(const char* const filename);
 
 	extern bool PLEX_assignBuffer(const int64_t buffer, const size_t index);

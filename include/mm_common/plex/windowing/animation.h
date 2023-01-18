@@ -59,13 +59,13 @@ extern "C"
 
 	extern size_t PLEX_getFrame(const uint64_t time, uint32_t* x, uint32_t* y, uint32_t* w, uint32_t* h, const PLEX_ANIMATION animation, const PLEX_ANIMATION_PLATE plate);
 
-	extern void PLEX_drawFrame(const size_t order, const uint64_t time, const uint32_t tx, const uint32_t ty, const uint32_t tw, const uint32_t th, const PLEX_ANIMATION animation, const PLEX_ANIMATION_PLATE plate, const bool offset);
+	extern void PLEX_drawFrame(const size_t order, const uint64_t time, const double tx, const double ty, const double tw, const double th, const PLEX_ANIMATION animation, const PLEX_ANIMATION_PLATE plate, const bool offset);
 
-	extern void PLEX_drawFrameTinted(const size_t order, const uint64_t time, const uint32_t tx, const uint32_t ty, const uint32_t tw, const uint32_t th, const uint8_t r, const uint8_t g, const uint8_t b, const PLEX_ANIMATION animation, const PLEX_ANIMATION_PLATE plate, const bool offset);
+	extern void PLEX_drawFrameTinted(const size_t order, const uint64_t time, const double tx, const double ty, const double tw, const double th, const uint8_t r, const uint8_t g, const uint8_t b, const PLEX_ANIMATION animation, const PLEX_ANIMATION_PLATE plate, const bool offset);
 
-	extern void PLEX_drawSprite(const size_t order, const size_t index, const uint64_t time, const uint32_t tx, const uint32_t ty, const uint32_t tw, const uint32_t th, const PLEX_SPRITE sprite, const bool offset);
+	extern void PLEX_drawSprite(const size_t order, const size_t index, const uint64_t time, const double tx, const double ty, const double tw, const double th, const PLEX_SPRITE sprite, const bool offset);
 
-	extern void PLEX_drawSpriteTinted(const size_t order, const size_t index, const uint64_t time, const uint32_t tx, const uint32_t ty, const uint32_t tw, const uint32_t th, const uint8_t r, const uint8_t g, const uint8_t b, const PLEX_SPRITE sprite, const bool offset);
+	extern void PLEX_drawSpriteTinted(const size_t order, const size_t index, const uint64_t time, const double tx, const double ty, const double tw, const double th, const uint8_t r, const uint8_t g, const uint8_t b, const PLEX_SPRITE sprite, const bool offset);
 
 	extern bool PLEX_isAnimationStopped(const PLEX_ANIMATION animation);
 

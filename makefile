@@ -1,10 +1,10 @@
 # COMPILER #
 
-CC=clang -O3 -fsanitize=address,undefined
+CC=gcc -O3
 
 # FLAGS #
 
-FLAGS=-std=c18 -march=native -I$(INC) -I$(HINC) -I$(HINC2)
+FLAGS=-std=c18 -march=native -I$(INC) -I$(HINC) -I$(HINC2) -fsanitize=address,undefined
 OBJFLAGS=-c
 LOBJFLAGS=-fPIC
 LIBFLAGS=-shared

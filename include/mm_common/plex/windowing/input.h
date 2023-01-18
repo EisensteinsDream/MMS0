@@ -41,7 +41,13 @@ extern "C"
 	extern bool PLEX_KEY_fdown(const size_t number);
 	extern bool PLEX_KEY_fpress(const size_t number);
 
+	extern bool PLEX_KEY_rshift();
+	extern bool PLEX_KEY_lshift();
 	extern bool PLEX_KEY_shift();
+
+	extern bool PLEX_KEY_rctrl();
+	extern bool PLEX_KEY_lctrl();
+	extern bool PLEX_KEY_ctrl();
 
 	extern bool PLEX_CONTROLLER_down(const size_t controller, const uint8_t button);
 	extern bool PLEX_CONTROLLER_press(const size_t controller, const uint8_t button);
@@ -51,6 +57,10 @@ extern "C"
 	extern size_t PLEX_CONTROLLER_count();
 
 	extern bool PLEX_pauseDisabled();
+
+	extern void PLEX_hideSystemCursor();
+	extern void PLEX_unhideSystemCursor();
+	extern void PLEX_toggleHideSystemCursor();
 #ifdef __cplusplus
 }
 #endif

@@ -48,6 +48,7 @@
 	#include <process.h>
 #endif
 
+#include "meta/standardsizes.h"
 #include "meta/hardlimits.h"
 #include "meta/errormess.h"
 
