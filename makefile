@@ -37,7 +37,7 @@ ROBJ=$(ROBJD)/game.o $(ROBJD)/minigame0.o $(ROBJD)/mms0.o
 
 all: release
 clean:
-	rm $(ROBJD)/* & rm $(RBIND)/* & rm $(RLIBD)/libMMS.so;
+	rm $(ROBJD)/*.o & rm $(RBIND)/main & rm $(RLIBD)/libMMS.so;
 rebuild: clean release
 release: $(ROBJ) $(RLIBD)/libMMS.so $(RBIND)/main
 
